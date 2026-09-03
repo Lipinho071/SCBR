@@ -1,0 +1,1632 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0019F834	EBX: 0x0408B3B0	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x02562928	EBP: 0x0019F844	ESP: 0x0019F81C
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x02562928   0x02562928   0x0408B3B0   0xFFFFFFFF
++0010: 0x0019F81C   0x0019F35C   0x0019FB34   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x0408C2F8   0x004056CD
++0030: 0x00000000   0x004010B6   0x02562928   0x04BCE1D4
++0040: 0x042F2B00   0x00402B63   0x02562928   0x00000009
++0050: 0x0019F884   0x04BCE1D4   0x0019FB44   0x02562928
++0060: 0x00000000   0x00000000   0x00000000   0x008DB6D0
++0070: 0x008DB6D4   0x008DC51C   0x008BF090   0x008DB6E0
++0080: 0x008BF094   0x0408B3B0   0x042F2B00   0x00000000
++0090: 0x04088020   0x00267750   0x0046DD10   0x02562928
++00A0: 0x0019F8EC   0x000000D1   0x02562928   0x00000000
++00B0: 0x02562928   0x0019F8FC   0x0019F8F0   0x0019F918
++00C0: 0x04BB1B60   0x00000000   0x0019FA18   0x00000000
++00D0: 0x00000000   0x04BB1B60   0x00492A3B   0x000000D1
++00E0: 0x008BF060   0x020BE750   0x0019FB50   0x020BCD01
++00F0: 0x0000000B   0x02000002   0x0000C046   0x7473652F
++0100: 0x6F696361   0x0072616E   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Bruno\Documents\BACKUP GM\samp-server.exe)
+ntdll.dll	A: 0x77C80000 - 0x77E1A000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x77940000 - 0x77A20000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77A70000 - 0x77C6C000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75790000 - 0x75D04000	(C:\Windows\System32\SHELL32.dll)
+ucrtbase.dll	A: 0x777F0000 - 0x7790F000	(C:\Windows\System32\ucrtbase.dll)
+cfgmgr32.dll	A: 0x75F90000 - 0x75FCB000	(C:\Windows\System32\cfgmgr32.dll)
+shcore.dll	A: 0x77310000 - 0x77394000	(C:\Windows\System32\shcore.dll)
+msvcrt.dll	A: 0x77560000 - 0x7761F000	(C:\Windows\System32\msvcrt.dll)
+RPCRT4.dll	A: 0x773A0000 - 0x7745B000	(C:\Windows\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x75450000 - 0x75470000	(C:\Windows\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75440000 - 0x7544A000	(C:\Windows\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x767C0000 - 0x7681F000	(C:\Windows\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x76820000 - 0x76896000	(C:\Windows\System32\sechost.dll)
+combase.dll	A: 0x76930000 - 0x76BA6000	(C:\Windows\System32\combase.dll)
+windows.storage.dll	A: 0x76BB0000 - 0x77171000	(C:\Windows\System32\windows.storage.dll)
+msvcp_win.dll	A: 0x768B0000 - 0x7692C000	(C:\Windows\System32\msvcp_win.dll)
+advapi32.dll	A: 0x75710000 - 0x75789000	(C:\Windows\System32\advapi32.dll)
+profapi.dll	A: 0x75EE0000 - 0x75EF7000	(C:\Windows\System32\profapi.dll)
+powrprof.dll	A: 0x77A20000 - 0x77A63000	(C:\Windows\System32\powrprof.dll)
+UMPDC.dll	A: 0x768A0000 - 0x768AD000	(C:\Windows\System32\UMPDC.dll)
+shlwapi.dll	A: 0x756C0000 - 0x75704000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x77720000 - 0x77741000	(C:\Windows\System32\GDI32.dll)
+win32u.dll	A: 0x77920000 - 0x77937000	(C:\Windows\System32\win32u.dll)
+gdi32full.dll	A: 0x761A0000 - 0x762FA000	(C:\Windows\System32\gdi32full.dll)
+USER32.dll	A: 0x75D40000 - 0x75ED5000	(C:\Windows\System32\USER32.dll)
+kernel.appcore.dll	A: 0x77910000 - 0x7791F000	(C:\Windows\System32\kernel.appcore.dll)
+cryptsp.dll	A: 0x777B0000 - 0x777C3000	(C:\Windows\System32\cryptsp.dll)
+WSOCK32.dll	A: 0x75430000 - 0x75438000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x76300000 - 0x7635E000	(C:\Windows\System32\WS2_32.dll)
+WINMM.dll	A: 0x75400000 - 0x75424000	(C:\Windows\SYSTEM32\WINMM.dll)
+WINMMBASE.dll	A: 0x753D0000 - 0x753F3000	(C:\Windows\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x75D10000 - 0x75D35000	(C:\Windows\System32\IMM32.DLL)
+mswsock.dll	A: 0x75370000 - 0x753C2000	(C:\Windows\system32\mswsock.dll)
+napinsp.dll	A: 0x75350000 - 0x75361000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x75330000 - 0x75346000	(C:\Windows\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x75290000 - 0x75321000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x76360000 - 0x76367000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x75250000 - 0x75282000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x75240000 - 0x7524B000	(C:\Windows\System32\winrnr.dll)
+NLAapi.dll	A: 0x75220000 - 0x75236000	(C:\Windows\system32\NLAapi.dll)
+wshbth.dll	A: 0x75210000 - 0x75220000	(C:\Windows\system32\wshbth.dll)
+bcrypt.dll	A: 0x777D0000 - 0x777E9000	(C:\Windows\System32\bcrypt.dll)
+rasadhlp.dll	A: 0x751A0000 - 0x751A8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0012F818	EBX: 0x02BC5608	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x014022A8	EBP: 0x0012F828	ESP: 0x0012F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x014022A8   0x014022A8   0x02BC5608   0xFFFFFFFF
++0010: 0x0012F800   0x0012F40C   0x0012FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02BC56F4   0x004056CD
++0030: 0x00000000   0x004010B6   0x014022A8   0x02C3B18C
++0040: 0x02BCB56C   0x00402B63   0x014022A8   0x00000002
++0050: 0x0012F868   0x02C3B18C   0x0012FB5C   0x014022A8
++0060: 0x00000000   0x00000000   0x00000000   0x0006FC1C
++0070: 0x0006FC20   0x0006FD60   0x0002FD80   0x0006FC2C
++0080: 0x0002FD84   0x02BC5608   0x02BCB56C   0x00000000
++0090: 0x02BC4F78   0x00005F64   0x0046EC31   0x014022A8
++00A0: 0x0012F8E8   0x00000000   0x014022A8   0x00000000
++00B0: 0x014022A8   0x00000002   0x014022A8   0x00000001
++00C0: 0x014022A8   0xFFFFFFFF   0x014022A8   0x0012F904
++00D0: 0x0012F8EC   0x0012FA40   0x02BFB2D0   0x00000000
++00E0: 0x0012FB41   0x014022A8   0x00000000   0x02BFB2D0
++00F0: 0x00493912   0x00000000   0x00000002   0x00000001
++0100: 0xFFFFFFFF   0x0002FD64   0x01351DD0   0x0012FB68
++0110: 0x0153D601   0x00000000   0x01060000   0x0000FFFF
++0120: 0x00000002   0x00000000   0x00000068   0x00000068
++0130: 0x00000060   0x0012FB68   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Gabriel\Documents\Downloads\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77100000 - 0x77242000	(C:\Windows\SYSTEM32\ntdll.dll)
+kernel32.dll	A: 0x76A20000 - 0x76AF5000	(C:\Windows\system32\kernel32.dll)
+KERNELBASE.dll	A: 0x75130000 - 0x7517B000	(C:\Windows\system32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75DD0000 - 0x76A1C000	(C:\Windows\system32\SHELL32.dll)
+msvcrt.dll	A: 0x75460000 - 0x7550C000	(C:\Windows\system32\msvcrt.dll)
+SHLWAPI.dll	A: 0x75560000 - 0x755B7000	(C:\Windows\system32\SHLWAPI.dll)
+GDI32.dll	A: 0x75510000 - 0x7555E000	(C:\Windows\system32\GDI32.dll)
+USER32.dll	A: 0x752E0000 - 0x753A9000	(C:\Windows\system32\USER32.dll)
+LPK.dll	A: 0x75250000 - 0x7525A000	(C:\Windows\system32\LPK.dll)
+USP10.dll	A: 0x75630000 - 0x756CD000	(C:\Windows\system32\USP10.dll)
+WSOCK32.dll	A: 0x6A060000 - 0x6A067000	(C:\Windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x755F0000 - 0x75625000	(C:\Windows\system32\WS2_32.dll)
+RPCRT4.dll	A: 0x753B0000 - 0x75452000	(C:\Windows\system32\RPCRT4.dll)
+NSI.dll	A: 0x77310000 - 0x77316000	(C:\Windows\system32\NSI.dll)
+WINMM.dll	A: 0x73190000 - 0x731C2000	(C:\Windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x77250000 - 0x7726F000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76EE0000 - 0x76FAD000	(C:\Windows\system32\MSCTF.dll)
+SafeIPs.dll	A: 0x10000000 - 0x10063000	(C:\Windows\system32\SafeIPs.dll)
+MSWSOCK.dll	A: 0x74800000 - 0x7483C000	(C:\Windows\system32\MSWSOCK.dll)
+IPHLPAPI.DLL	A: 0x74390000 - 0x743AC000	(C:\Windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74380000 - 0x74387000	(C:\Windows\system32\WINNSI.DLL)
+ADVAPI32.dll	A: 0x75D20000 - 0x75DC1000	(C:\Windows\system32\ADVAPI32.dll)
+sechost.dll	A: 0x77330000 - 0x77349000	(C:\Windows\SYSTEM32\sechost.dll)
+OLEAUT32.dll	A: 0x751B0000 - 0x75241000	(C:\Windows\system32\OLEAUT32.dll)
+VERSION.dll	A: 0x74370000 - 0x74379000	(C:\Windows\system32\VERSION.dll)
+SspiCli.dll	A: 0x74D00000 - 0x74D1B000	(C:\Windows\system32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74D70000 - 0x74D7C000	(C:\Windows\system32\CRYPTBASE.dll)
+uxtheme.dll	A: 0x73BB0000 - 0x73BF0000	(C:\Windows\system32\uxtheme.dll)
+CLBCatQ.DLL	A: 0x77280000 - 0x77303000	(C:\Windows\system32\CLBCatQ.DLL)
+CRYPTSP.dll	A: 0x74840000 - 0x74857000	(C:\Windows\system32\CRYPTSP.dll)
+RpcRtRemote.dll	A: 0x74E10000 - 0x74E1E000	(C:\Windows\system32\RpcRtRemote.dll)
+SXS.DLL	A: 0x74D80000 - 0x74DDF000	(C:\Windows\system32\SXS.DLL)
+wshtcpip.dll	A: 0x74350000 - 0x74355000	(C:\Windows\System32\wshtcpip.dll)
+NLAapi.dll	A: 0x72E90000 - 0x72EA0000	(C:\Windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x677D0000 - 0x677E0000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x677B0000 - 0x677C2000	(C:\Windows\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x746C0000 - 0x74704000	(C:\Windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x677A0000 - 0x677A8000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x65E80000 - 0x65E86000	(C:\Windows\system32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0012F818	EBX: 0x02CD5608	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x017922A8	EBP: 0x0012F828	ESP: 0x0012F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x017922A8   0x017922A8   0x02CD5608   0xFFFFFFFF
++0010: 0x0012F800   0x0012F40C   0x0012FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02CD56F4   0x004056CD
++0030: 0x00000000   0x004010B6   0x017922A8   0x02D4B9A4
++0040: 0x02CDB70C   0x00402B63   0x017922A8   0x00000002
++0050: 0x0012F868   0x02D4B9A4   0x0012FB5C   0x017922A8
++0060: 0x00000000   0x00000000   0x00000000   0x00070294
++0070: 0x00070298   0x000703D8   0x000303F8   0x000702A4
++0080: 0x000303FC   0x02CD5608   0x02CDB70C   0x00000000
++0090: 0x02CD4F78   0x00006104   0x0046EC31   0x017922A8
++00A0: 0x0012F8E8   0x00000000   0x017922A8   0x00000000
++00B0: 0x017922A8   0x00000002   0x017922A8   0x00000001
++00C0: 0x017922A8   0xFFFFFFFF   0x017922A8   0x0012F904
++00D0: 0x0012F8EC   0x0012FA40   0x02D0BAE8   0x00000000
++00E0: 0x0012FB41   0x017922A8   0x00000000   0x02D0BAE8
++00F0: 0x00493912   0x00000000   0x00000002   0x00000001
++0100: 0xFFFFFFFF   0x000303DC   0x016E1DD0   0x0012FB68
++0110: 0x013FD601   0x00000000   0x01060000   0x0000FFFF
++0120: 0x00000002   0x00000000   0x00000068   0x00000068
++0130: 0x00000060   0x0012FB68   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Gabriel\Documents\Downloads\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77100000 - 0x77242000	(C:\Windows\SYSTEM32\ntdll.dll)
+kernel32.dll	A: 0x76A20000 - 0x76AF5000	(C:\Windows\system32\kernel32.dll)
+KERNELBASE.dll	A: 0x75130000 - 0x7517B000	(C:\Windows\system32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75DD0000 - 0x76A1C000	(C:\Windows\system32\SHELL32.dll)
+msvcrt.dll	A: 0x75460000 - 0x7550C000	(C:\Windows\system32\msvcrt.dll)
+SHLWAPI.dll	A: 0x75560000 - 0x755B7000	(C:\Windows\system32\SHLWAPI.dll)
+GDI32.dll	A: 0x75510000 - 0x7555E000	(C:\Windows\system32\GDI32.dll)
+USER32.dll	A: 0x752E0000 - 0x753A9000	(C:\Windows\system32\USER32.dll)
+LPK.dll	A: 0x75250000 - 0x7525A000	(C:\Windows\system32\LPK.dll)
+USP10.dll	A: 0x75630000 - 0x756CD000	(C:\Windows\system32\USP10.dll)
+WSOCK32.dll	A: 0x6A060000 - 0x6A067000	(C:\Windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x755F0000 - 0x75625000	(C:\Windows\system32\WS2_32.dll)
+RPCRT4.dll	A: 0x753B0000 - 0x75452000	(C:\Windows\system32\RPCRT4.dll)
+NSI.dll	A: 0x77310000 - 0x77316000	(C:\Windows\system32\NSI.dll)
+WINMM.dll	A: 0x73190000 - 0x731C2000	(C:\Windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x77250000 - 0x7726F000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76EE0000 - 0x76FAD000	(C:\Windows\system32\MSCTF.dll)
+SafeIPs.dll	A: 0x10000000 - 0x10063000	(C:\Windows\system32\SafeIPs.dll)
+MSWSOCK.dll	A: 0x74800000 - 0x7483C000	(C:\Windows\system32\MSWSOCK.dll)
+IPHLPAPI.DLL	A: 0x74390000 - 0x743AC000	(C:\Windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74380000 - 0x74387000	(C:\Windows\system32\WINNSI.DLL)
+ADVAPI32.dll	A: 0x75D20000 - 0x75DC1000	(C:\Windows\system32\ADVAPI32.dll)
+sechost.dll	A: 0x77330000 - 0x77349000	(C:\Windows\SYSTEM32\sechost.dll)
+OLEAUT32.dll	A: 0x751B0000 - 0x75241000	(C:\Windows\system32\OLEAUT32.dll)
+VERSION.dll	A: 0x74370000 - 0x74379000	(C:\Windows\system32\VERSION.dll)
+SspiCli.dll	A: 0x74D00000 - 0x74D1B000	(C:\Windows\system32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x74D70000 - 0x74D7C000	(C:\Windows\system32\CRYPTBASE.dll)
+uxtheme.dll	A: 0x73BB0000 - 0x73BF0000	(C:\Windows\system32\uxtheme.dll)
+CLBCatQ.DLL	A: 0x77280000 - 0x77303000	(C:\Windows\system32\CLBCatQ.DLL)
+CRYPTSP.dll	A: 0x74840000 - 0x74857000	(C:\Windows\system32\CRYPTSP.dll)
+RpcRtRemote.dll	A: 0x74E10000 - 0x74E1E000	(C:\Windows\system32\RpcRtRemote.dll)
+SXS.DLL	A: 0x74D80000 - 0x74DDF000	(C:\Windows\system32\SXS.DLL)
+wshtcpip.dll	A: 0x74350000 - 0x74355000	(C:\Windows\System32\wshtcpip.dll)
+NLAapi.dll	A: 0x72E90000 - 0x72EA0000	(C:\Windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x677D0000 - 0x677E0000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x677B0000 - 0x677C2000	(C:\Windows\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x746C0000 - 0x74704000	(C:\Windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x677A0000 - 0x677A8000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x65E80000 - 0x65E86000	(C:\Windows\system32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC0C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x3046467B	EBX: 0x02DBD573	ECX: 0x7FFFFFFE	EDX: 0x0012F93E
+ESI: 0x0012F570	EDI: 0x0012FD69	EBP: 0x0012F5BC	ESP: 0x0012F530
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0012FD08   0x0012F908   0x02DBD5B8   0x00000080
++0010: 0x00120101   0xAA0005AF   0x013E3250   0x00000007
++0020: 0x00000000   0x00000002   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x000DF41C
++0040: 0x00000037   0x00000000   0x3046467B   0xFFFFFFFF
++0050: 0x00000000   0x77C2E355   0x000DF43C   0xFFFFFFFE
++0060: 0x77C65BC3   0x77C658D0   0x00000034   0x00000040
++0070: 0x013DDBEA   0x013DDBE8   0x0012F704   0x00000034
++0080: 0x014CE778   0x00000001   0x0012F824   0x004AA54B
++0090: 0xFFFFFFFF   0x0100007F   0x0045A4E3   0x004B8878
++00A0: 0x0012F6F9   0x000000C4   0x00000001   0x00000009
++00B0: 0x00000002   0x0100007F   0x004AFB35   0x000000C4
++00C0: 0x00000000   0xFFFFFFFF   0xFFFFFFFF   0x00000000
++00D0: 0x00451AB8   0x00000003   0x00000000   0x00000040
++00E0: 0x00000001   0x0012F650   0x00498D56   0x014C0000
++00F0: 0x00000000   0x00498D5B   0x0012F704   0x00000034
++0100: 0x014CE778   0x0045A4E3   0x0012F628   0x0012F765
++0110: 0x0012F828   0x0049D208   0x004BA148   0xFFFFFFFF
++0120: 0x00498D5B   0x00498D78   0x00000034   0x0049AA3C
++0130: 0x00000034   0x00000001   0x004522E3   0x00452346
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Gabriel\Documents\Downloads\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77C10000 - 0x77D52000	(C:\Windows\SYSTEM32\ntdll.dll)
+kernel32.dll	A: 0x75EC0000 - 0x75F95000	(C:\Windows\system32\kernel32.dll)
+KERNELBASE.dll	A: 0x75C70000 - 0x75CBB000	(C:\Windows\system32\KERNELBASE.dll)
+SHELL32.dll	A: 0x76530000 - 0x7717C000	(C:\Windows\system32\SHELL32.dll)
+msvcrt.dll	A: 0x772E0000 - 0x7738C000	(C:\Windows\system32\msvcrt.dll)
+SHLWAPI.dll	A: 0x77950000 - 0x779A7000	(C:\Windows\system32\SHLWAPI.dll)
+GDI32.dll	A: 0x775D0000 - 0x7761E000	(C:\Windows\system32\GDI32.dll)
+USER32.dll	A: 0x75D70000 - 0x75E39000	(C:\Windows\system32\USER32.dll)
+LPK.dll	A: 0x75E40000 - 0x75E4A000	(C:\Windows\system32\LPK.dll)
+USP10.dll	A: 0x77B70000 - 0x77C0D000	(C:\Windows\system32\USP10.dll)
+WSOCK32.dll	A: 0x61350000 - 0x61357000	(C:\Windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x77D70000 - 0x77DA5000	(C:\Windows\system32\WS2_32.dll)
+RPCRT4.dll	A: 0x75CC0000 - 0x75D62000	(C:\Windows\system32\RPCRT4.dll)
+NSI.dll	A: 0x77D60000 - 0x77D66000	(C:\Windows\system32\NSI.dll)
+WINMM.dll	A: 0x73C20000 - 0x73C52000	(C:\Windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x778B0000 - 0x778CF000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76460000 - 0x7652D000	(C:\Windows\system32\MSCTF.dll)
+SafeIPs.dll	A: 0x10000000 - 0x10063000	(C:\Windows\system32\SafeIPs.dll)
+MSWSOCK.dll	A: 0x75310000 - 0x7534C000	(C:\Windows\system32\MSWSOCK.dll)
+IPHLPAPI.DLL	A: 0x74EA0000 - 0x74EBC000	(C:\Windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74E90000 - 0x74E97000	(C:\Windows\system32\WINNSI.DLL)
+ADVAPI32.dll	A: 0x776B0000 - 0x77751000	(C:\Windows\system32\ADVAPI32.dll)
+sechost.dll	A: 0x779B0000 - 0x779C9000	(C:\Windows\SYSTEM32\sechost.dll)
+OLEAUT32.dll	A: 0x77DC0000 - 0x77E51000	(C:\Windows\system32\OLEAUT32.dll)
+VERSION.dll	A: 0x74E80000 - 0x74E89000	(C:\Windows\system32\VERSION.dll)
+SspiCli.dll	A: 0x75810000 - 0x7582B000	(C:\Windows\system32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x758B0000 - 0x758BC000	(C:\Windows\system32\CRYPTBASE.dll)
+uxtheme.dll	A: 0x746D0000 - 0x74710000	(C:\Windows\system32\uxtheme.dll)
+CLBCatQ.DLL	A: 0x77620000 - 0x776A3000	(C:\Windows\system32\CLBCatQ.DLL)
+CRYPTSP.dll	A: 0x75350000 - 0x75367000	(C:\Windows\system32\CRYPTSP.dll)
+RpcRtRemote.dll	A: 0x75920000 - 0x7592E000	(C:\Windows\system32\RpcRtRemote.dll)
+SXS.DLL	A: 0x758C0000 - 0x7591F000	(C:\Windows\system32\SXS.DLL)
+wshtcpip.dll	A: 0x74E60000 - 0x74E65000	(C:\Windows\System32\wshtcpip.dll)
+NLAapi.dll	A: 0x73950000 - 0x73960000	(C:\Windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x68710000 - 0x68720000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x686F0000 - 0x68702000	(C:\Windows\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x751D0000 - 0x75214000	(C:\Windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x679A0000 - 0x679A8000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x67920000 - 0x67926000	(C:\Windows\system32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC0C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x3046467B	EBX: 0x02CDBB73	ECX: 0x7FFFFFFE	EDX: 0x0012F3EE
+ESI: 0x0012F020	EDI: 0x0012F819	EBP: 0x0012F06C	ESP: 0x0012EFE0
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0012F7B8   0x0012F3B8   0x02CDBB2C   0x0012F25C
++0010: 0x01309CE8   0x0130FD60   0x0012F00C   0x00000007
++0020: 0x00000000   0x00000000   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x00498E16
++0040: 0x00000037   0x00000000   0x3046467B   0xFFFFFFFF
++0050: 0x00000000   0x0012F274   0x0012F264   0x0049D208
++0060: 0x004BA158   0xFFFFFFFF   0x00498E16   0x0044D9C9
++0070: 0x0130FD68   0x0049094D   0x00000000   0x01309CE8
++0080: 0xFFFFFF00   0x00480021   0x00000000   0x00464646
++0090: 0x0000095B   0x00001276   0x00000000   0x0130FD68
++00A0: 0x01040001   0x040060C4   0x00001662   0x00000000
++00B0: 0x00000080   0x89B70006   0x00009E01   0x00050000
++00C0: 0x00050000   0x00050000   0x40000000   0x20000000
++00D0: 0x00000045   0x00151260   0x00150000   0x001515B0
++00E0: 0x2D8DCDED   0x0408A4CC   0x4927680A   0x00000000
++00F0: 0x00000025   0x0012F1C0   0x00000045   0x00150000
++0100: 0x00151260   0x0012F1C0   0x77C65B94   0x77C65BC3
++0110: 0x77D46CEB   0x0012F528   0x001503AC   0x00150000
++0120: 0x00150150   0x5C73656C   0x746E6F43   0x00150150
++0130: 0x69726261   0x00150180   0x69656269   0x00000025
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Gabriel\Documents\Downloads\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77C10000 - 0x77D52000	(C:\Windows\SYSTEM32\ntdll.dll)
+kernel32.dll	A: 0x75EC0000 - 0x75F95000	(C:\Windows\system32\kernel32.dll)
+KERNELBASE.dll	A: 0x75C70000 - 0x75CBB000	(C:\Windows\system32\KERNELBASE.dll)
+SHELL32.dll	A: 0x76530000 - 0x7717C000	(C:\Windows\system32\SHELL32.dll)
+msvcrt.dll	A: 0x772E0000 - 0x7738C000	(C:\Windows\system32\msvcrt.dll)
+SHLWAPI.dll	A: 0x77950000 - 0x779A7000	(C:\Windows\system32\SHLWAPI.dll)
+GDI32.dll	A: 0x775D0000 - 0x7761E000	(C:\Windows\system32\GDI32.dll)
+USER32.dll	A: 0x75D70000 - 0x75E39000	(C:\Windows\system32\USER32.dll)
+LPK.dll	A: 0x75E40000 - 0x75E4A000	(C:\Windows\system32\LPK.dll)
+USP10.dll	A: 0x77B70000 - 0x77C0D000	(C:\Windows\system32\USP10.dll)
+WSOCK32.dll	A: 0x61350000 - 0x61357000	(C:\Windows\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x77D70000 - 0x77DA5000	(C:\Windows\system32\WS2_32.dll)
+RPCRT4.dll	A: 0x75CC0000 - 0x75D62000	(C:\Windows\system32\RPCRT4.dll)
+NSI.dll	A: 0x77D60000 - 0x77D66000	(C:\Windows\system32\NSI.dll)
+WINMM.dll	A: 0x73C20000 - 0x73C52000	(C:\Windows\system32\WINMM.dll)
+IMM32.DLL	A: 0x778B0000 - 0x778CF000	(C:\Windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76460000 - 0x7652D000	(C:\Windows\system32\MSCTF.dll)
+SafeIPs.dll	A: 0x10000000 - 0x10063000	(C:\Windows\system32\SafeIPs.dll)
+MSWSOCK.dll	A: 0x75310000 - 0x7534C000	(C:\Windows\system32\MSWSOCK.dll)
+IPHLPAPI.DLL	A: 0x74EA0000 - 0x74EBC000	(C:\Windows\system32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74E90000 - 0x74E97000	(C:\Windows\system32\WINNSI.DLL)
+ADVAPI32.dll	A: 0x776B0000 - 0x77751000	(C:\Windows\system32\ADVAPI32.dll)
+sechost.dll	A: 0x779B0000 - 0x779C9000	(C:\Windows\SYSTEM32\sechost.dll)
+OLEAUT32.dll	A: 0x77DC0000 - 0x77E51000	(C:\Windows\system32\OLEAUT32.dll)
+VERSION.dll	A: 0x74E80000 - 0x74E89000	(C:\Windows\system32\VERSION.dll)
+SspiCli.dll	A: 0x75810000 - 0x7582B000	(C:\Windows\system32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x758B0000 - 0x758BC000	(C:\Windows\system32\CRYPTBASE.dll)
+uxtheme.dll	A: 0x746D0000 - 0x74710000	(C:\Windows\system32\uxtheme.dll)
+CLBCatQ.DLL	A: 0x77620000 - 0x776A3000	(C:\Windows\system32\CLBCatQ.DLL)
+CRYPTSP.dll	A: 0x75350000 - 0x75367000	(C:\Windows\system32\CRYPTSP.dll)
+RpcRtRemote.dll	A: 0x75920000 - 0x7592E000	(C:\Windows\system32\RpcRtRemote.dll)
+SXS.DLL	A: 0x758C0000 - 0x7591F000	(C:\Windows\system32\SXS.DLL)
+wshtcpip.dll	A: 0x74E60000 - 0x74E65000	(C:\Windows\System32\wshtcpip.dll)
+NLAapi.dll	A: 0x73950000 - 0x73960000	(C:\Windows\system32\NLAapi.dll)
+napinsp.dll	A: 0x68710000 - 0x68720000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x686F0000 - 0x68702000	(C:\Windows\system32\pnrpnsp.dll)
+DNSAPI.dll	A: 0x751D0000 - 0x75214000	(C:\Windows\system32\DNSAPI.dll)
+winrnr.dll	A: 0x679A0000 - 0x679A8000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x67920000 - 0x67926000	(C:\Windows\system32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018FC04	EBX: 0x027D324C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0221F038	EBP: 0x0018FC14	ESP: 0x0018FBEC
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0221F038   0x0221F038   0x027D324C   0xFFFFFFFF
++0010: 0x0018FBEC   0x0018F62C   0x0018FDF4   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x027D4D4C   0x004056CD
++0030: 0x00000000   0x004010B6   0x0221F038   0x028086E0
++0040: 0x027E01E0   0x00402B63   0x0221F038   0x00000010
++0050: 0x0018FC54   0x028086E0   0x00000000   0x00000006
++0060: 0x0267C018   0x00000000   0x00000000   0x000284FC
++0070: 0x00028500   0x000285D4   0x000245D8   0x0002850C
++0080: 0x000245DC   0x027D324C   0x027E01E0   0x00000000
++0090: 0x027D2A70   0x0000CF94   0x0046AD1E   0x0221F038
++00A0: 0x0018FCB4   0x00000009   0x0221F038   0x00000000
++00B0: 0x0221F038   0x00000000   0x026D6010   0x00000000
++00C0: 0x00000000   0x00000000   0x00000001   0x004665DB
++00D0: 0x00000000   0x00000009   0x76DA70E0   0x00329A38
++00E0: 0x02792838   0x00000000   0x76DA70E0   0x00000000
++00F0: 0x00329A38   0x00329A38   0x00000000   0x6F6E6E00
++0100: 0x65636E75   0x00000200   0x00000228   0x00000000
++0110: 0x0000000F   0x00320BF8   0x6F6E6E61   0x65636E75
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018FC04	EBX: 0x025B324C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0213F038	EBP: 0x0018FC14	ESP: 0x0018FBEC
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0213F038   0x0213F038   0x025B324C   0xFFFFFFFF
++0010: 0x0018FBEC   0x0018F62C   0x0018FDF4   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x025B4D4C   0x004056CD
++0030: 0x00000000   0x004010B6   0x0213F038   0x025E86E0
++0040: 0x025C01E0   0x00402B63   0x0213F038   0x00000010
++0050: 0x0018FC54   0x025E86E0   0x00000001   0x00000006
++0060: 0x0245C018   0x00000000   0x00000000   0x000284FC
++0070: 0x00028500   0x000285D4   0x000245D8   0x0002850C
++0080: 0x000245DC   0x025B324C   0x025C01E0   0x00000000
++0090: 0x025B2A70   0x0000CF94   0x0046AD1E   0x0213F038
++00A0: 0x0018FCB4   0x00000009   0x0213F038   0x00000001
++00B0: 0x0213F038   0x00000000   0x024B6010   0x00000001
++00C0: 0x00000000   0x00000000   0x00000001   0x004665DB
++00D0: 0x00000001   0x00000009   0x76DA70E0   0x00359A38
++00E0: 0x02573058   0x00000000   0x76DA70E0   0x00000000
++00F0: 0x00359A38   0x00359A38   0x00000000   0x6F6E6E00
++0100: 0x65636E75   0x00000200   0x00000200   0x00000000
++0110: 0x0000000F   0x00350BF8   0x6F6E6E61   0x65636E75
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018FC24	EBX: 0x0257AE6C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x021476A0	EBP: 0x0018FC34	ESP: 0x0018FC0C
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x021476A0   0x021476A0   0x0257AE6C   0xFFFFFFFF
++0010: 0x0018FC0C   0x0018F64C   0x0018FE20   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x0257C96C   0x004056CD
++0030: 0x00000000   0x004010B6   0x021476A0   0x025B0300
++0040: 0x02587E00   0x00402B63   0x021476A0   0x00000010
++0050: 0x0018FC74   0x025B0300   0x00000000   0x00000005
++0060: 0x0242C018   0x00000001   0x00000000   0x000284FC
++0070: 0x00028500   0x000285D4   0x000245D8   0x0002850C
++0080: 0x000245DC   0x0257AE6C   0x02587E00   0x00000000
++0090: 0x0257A690   0x0000CF94   0x0046AD1E   0x021476A0
++00A0: 0x0018FCD4   0x00000009   0x021476A0   0x00000000
++00B0: 0x021476A0   0x00000001   0x02486010   0x00000000
++00C0: 0x00000001   0x00000000   0x00000001   0x00465FA2
++00D0: 0x00000000   0x00000009   0x01DC9A38   0x76DB9050
++00E0: 0x76DA70E0   0x00000000   0x0216F050   0x0242C018
++00F0: 0x0048F482   0x76DB9050   0x76DB9010   0x00000000
++0100: 0x00000000   0x00000800   0x00000000   0x0018FD1D
++0110: 0x00000001   0x00000000   0x00000000   0x00000000
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018FC04	EBX: 0x0268AE6C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x022076A0	EBP: 0x0018FC14	ESP: 0x0018FBEC
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x022076A0   0x022076A0   0x0268AE6C   0xFFFFFFFF
++0010: 0x0018FBEC   0x0018F62C   0x0018FDF4   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x0268C96C   0x004056CD
++0030: 0x00000000   0x004010B6   0x022076A0   0x026C0300
++0040: 0x02697E00   0x00402B63   0x022076A0   0x00000010
++0050: 0x0018FC54   0x026C0300   0x00000000   0x00000005
++0060: 0x0253C018   0x00000001   0x00000000   0x000284FC
++0070: 0x00028500   0x000285D4   0x000245D8   0x0002850C
++0080: 0x000245DC   0x0268AE6C   0x02697E00   0x00000000
++0090: 0x0268A690   0x0000CF94   0x0046AD1E   0x022076A0
++00A0: 0x0018FCB4   0x00000009   0x022076A0   0x00000000
++00B0: 0x022076A0   0x00000001   0x02596010   0x00000000
++00C0: 0x00000001   0x00000000   0x00000001   0x004665DB
++00D0: 0x00000000   0x00000009   0x76DA70E0   0x005B9A38
++00E0: 0x026522F8   0x00000000   0x76DA70E0   0x00000001
++00F0: 0x005B9A38   0x005B9A38   0x00000000   0x6F6E6E00
++0100: 0x65636E75   0x00000200   0x00000228   0x00000000
++0110: 0x0000000F   0x005B0BF8   0x6F6E6E61   0x65636E75
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018FC04	EBX: 0x0273AE6C	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x023876A0	EBP: 0x0018FC14	ESP: 0x0018FBEC
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x023876A0   0x023876A0   0x0273AE6C   0xFFFFFFFF
++0010: 0x0018FBEC   0x0018F62C   0x0018FDF4   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x0273C96C   0x004056CD
++0030: 0x00000000   0x004010B6   0x023876A0   0x02770300
++0040: 0x02747E00   0x00402B63   0x023876A0   0x00000010
++0050: 0x0018FC54   0x02770300   0x00000001   0x00000005
++0060: 0x025EC018   0x00000000   0x00000000   0x000284FC
++0070: 0x00028500   0x000285D4   0x000245D8   0x0002850C
++0080: 0x000245DC   0x0273AE6C   0x02747E00   0x00000000
++0090: 0x0273A690   0x0000CF94   0x0046AD1E   0x023876A0
++00A0: 0x0018FCB4   0x00000009   0x023876A0   0x00000001
++00B0: 0x023876A0   0x00000000   0x02646010   0x00000001
++00C0: 0x00000000   0x00000000   0x00000001   0x004665DB
++00D0: 0x00000001   0x00000009   0x76DA70E0   0x00259A38
++00E0: 0x02702ED8   0x00000000   0x76DA70E0   0x00000000
++00F0: 0x00259A38   0x00259A38   0x00000000   0x6F6E6E00
++0100: 0x65636E75   0x00000200   0x00000200   0x00000000
++0110: 0x0000000F   0x00250BF8   0x6F6E6E61   0x65636E75
++0120: 0x00000000   0x00000000   0x00000000   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x744D0000 - 0x744D8000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x744A0000 - 0x744C3000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74470000 - 0x74493000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74440000 - 0x74461000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74380000 - 0x7443F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74340000 - 0x7437D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x742D0000 - 0x74339000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x742B0000 - 0x742C7000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74260000 - 0x742AB000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74240000 - 0x74251000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74220000 - 0x74234000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x741A0000 - 0x7421E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74190000 - 0x7419A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74100000 - 0x74120000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74180000 - 0x74188000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x740A0000 - 0x740A8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F818	EBX: 0x02661CFC	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0223F050	EBP: 0x0018F828	ESP: 0x0018F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0223F050   0x0223F050   0x02661CFC   0xFFFFFFFF
++0010: 0x0018F800   0x0018F23C   0x0018FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02661E8C   0x004056CD
++0030: 0x00000000   0x004010B6   0x0223F050   0x0267CFEC
++0040: 0x02666C38   0x00402B63   0x0223F050   0x00000003
++0050: 0x0018F868   0x0267CFEC   0x0018FB58   0x0223F050
++0060: 0x00000000   0x00000000   0x00000000   0x000163B0
++0070: 0x000163B4   0x000164F4   0x00012508   0x000163C0
++0080: 0x0001250C   0x02661CFC   0x02666C38   0x00000000
++0090: 0x02661590   0x00004F3C   0x0046EC31   0x0223F050
++00A0: 0x0018F8E8   0x00000000   0x0223F050   0x00000000
++00B0: 0x0223F050   0x00000002   0x0223F050   0x00000001
++00C0: 0x0223F050   0x00000000   0x0223F050   0x0018F904
++00D0: 0x0018F8EC   0x0018FA40   0x02679130   0x00000000
++00E0: 0x0018FB41   0x0223F050   0x00000000   0x02679130
++00F0: 0x00493912   0x00000000   0x00000002   0x00000001
++0100: 0x00000000   0x000124F8   0x003AE750   0x0018FB64
++0110: 0x003AD301   0x004B87F4   0x0103F9A4   0x00000000
++0120: 0x00000002   0x00000000   0x00000050   0x00000050
++0130: 0x00000048   0x0018FB64   0x0018FB00   0x004AA54B
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F818	EBX: 0x027C24C4	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0083F050	EBP: 0x0018F828	ESP: 0x0018F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0083F050   0x0083F050   0x027C24C4   0xFFFFFFFF
++0010: 0x0018F800   0x0018F23C   0x0018FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x027C4408   0x004056CD
++0030: 0x00000000   0x004010B6   0x0083F050   0x0280743C
++0040: 0x027D2180   0x00402B63   0x0083F050   0x00000010
++0050: 0x0018F868   0x0280743C   0x0018FB5C   0x0083F050
++0060: 0x00000000   0x00000000   0x00000000   0x000352B8
++0070: 0x000352BC   0x00035428   0x00031430   0x000352C8
++0080: 0x00031434   0x027C24C4   0x027D2180   0x00000000
++0090: 0x027C1630   0x0000FCBC   0x0046EC31   0x0083F050
++00A0: 0x0018F8E8   0x00000001   0x0083F050   0x00000000
++00B0: 0x0083F050   0x00000004   0x0083F050   0x00000001
++00C0: 0x0083F050   0x00000000   0x0083F050   0x0018F904
++00D0: 0x0018F8EC   0x0018FA40   0x028035AC   0x00000000
++00E0: 0x0018FB41   0x0083F050   0x00000000   0x028035AC
++00F0: 0x00493912   0x00000001   0x00000004   0x00000001
++0100: 0x00000000   0x0003142C   0x021BE828   0x0018FB68
++0110: 0x021BD301   0x0045A5FE   0x0100884C   0x00180000
++0120: 0x00000004   0x00000000   0x00000038   0x00000038
++0130: 0x00000030   0x0018FB68   0x00000000   0xFFFFFFFF
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F818	EBX: 0x026424C4	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0229F050	EBP: 0x0018F828	ESP: 0x0018F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0229F050   0x0229F050   0x026424C4   0xFFFFFFFF
++0010: 0x0018F800   0x0018F23C   0x0018FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02644408   0x004056CD
++0030: 0x00000000   0x004010B6   0x0229F050   0x02687410
++0040: 0x02652180   0x00402B63   0x0229F050   0x00000010
++0050: 0x0018F868   0x02687410   0x0018FB5C   0x0229F050
++0060: 0x00000000   0x00000000   0x00000000   0x0003528C
++0070: 0x00035290   0x000353FC   0x00031404   0x0003529C
++0080: 0x00031408   0x026424C4   0x02652180   0x00000000
++0090: 0x02641630   0x0000FCBC   0x0046EC31   0x0229F050
++00A0: 0x0018F8E8   0x00000001   0x0229F050   0x00000000
++00B0: 0x0229F050   0x00000004   0x0229F050   0x00000001
++00C0: 0x0229F050   0x00000000   0x0229F050   0x0018F904
++00D0: 0x0018F8EC   0x0018FA40   0x02683580   0x00000000
++00E0: 0x0018FB41   0x0229F050   0x00000000   0x02683580
++00F0: 0x00493912   0x00000001   0x00000004   0x00000001
++0100: 0x00000000   0x00031400   0x01EFE810   0x0018FB68
++0110: 0x01EFD301   0x00000000   0x010008B8   0x00180000
++0120: 0x00180004   0x00000000   0x00000038   0x00000038
++0130: 0x00000030   0x0018FB68   0x01EFE400   0xFFFFFFFF
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x742F0000 - 0x742F8000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x742C0000 - 0x742E3000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74290000 - 0x742B3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74260000 - 0x74281000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x741A0000 - 0x7425F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x73E80000 - 0x73EBD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73C70000 - 0x73CD9000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74180000 - 0x74197000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x73C20000 - 0x73C6B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x73E60000 - 0x73E71000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x73C00000 - 0x73C14000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x73B80000 - 0x73BFE000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x73ED0000 - 0x73EDA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74E50000 - 0x74E70000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74310000 - 0x74318000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x73B20000 - 0x73B28000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F818	EBX: 0x027924C4	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0223F050	EBP: 0x0018F828	ESP: 0x0018F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0223F050   0x0223F050   0x027924C4   0xFFFFFFFF
++0010: 0x0018F800   0x0018F23C   0x0018FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02794408   0x004056CD
++0030: 0x00000000   0x004010B6   0x0223F050   0x027D7410
++0040: 0x027A2180   0x00402B63   0x0223F050   0x00000010
++0050: 0x0018F868   0x027D7410   0x0018FB5C   0x0223F050
++0060: 0x00000000   0x00000000   0x00000000   0x0003528C
++0070: 0x00035290   0x000353FC   0x00031404   0x0003529C
++0080: 0x00031408   0x027924C4   0x027A2180   0x00000000
++0090: 0x02791630   0x0000FCBC   0x0046EC31   0x0223F050
++00A0: 0x0018F8E8   0x00000001   0x0223F050   0x00000000
++00B0: 0x0223F050   0x00000004   0x0223F050   0x00000001
++00C0: 0x0223F050   0x00000000   0x0223F050   0x0018F904
++00D0: 0x0018F8EC   0x0018FA40   0x027D3580   0x00000000
++00E0: 0x0018FB41   0x0223F050   0x00000000   0x027D3580
++00F0: 0x00493912   0x00000001   0x00000004   0x00000001
++0100: 0x00000000   0x00031400   0x0034E648   0x0018FB68
++0110: 0x0034D301   0x0045A5FE   0x0100884C   0x00180000
++0120: 0x00000004   0x00000000   0x00000038   0x00000038
++0130: 0x00000030   0x0018FB68   0x00000000   0xFFFFFFFF
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76D90000 - 0x76ED0000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x77520000 - 0x775F7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75140000 - 0x763FE000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x770D0000 - 0x77224000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x75030000 - 0x75038000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x75000000 - 0x75023000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x76850000 - 0x76913000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77600000 - 0x7777C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x77250000 - 0x77295000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x77780000 - 0x7788D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x77490000 - 0x774DF000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74FD0000 - 0x74FF3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x76ED0000 - 0x76F8A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x770C0000 - 0x770C7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x774E0000 - 0x7751C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74FA0000 - 0x74FC1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x77340000 - 0x7735E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76800000 - 0x76841000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77090000 - 0x770B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76C70000 - 0x76D82000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74EE0000 - 0x74F9F000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74EA0000 - 0x74EDD000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74E30000 - 0x74E99000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74E10000 - 0x74E27000	(C:\Users\carlos\Desktop\Brasil_Vida_Online\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74DC0000 - 0x74E0B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74DA0000 - 0x74DB1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74D80000 - 0x74D94000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x74D00000 - 0x74D7E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74CF0000 - 0x74CFA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74CD0000 - 0x74CF0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x74CC0000 - 0x74CC8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74C60000 - 0x74C68000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F818	EBX: 0x02635214	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x022DF050	EBP: 0x0018F828	ESP: 0x0018F800
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x022DF050   0x022DF050   0x02635214   0xFFFFFFFF
++0010: 0x0018F800   0x0018F23C   0x0018FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02638598   0x004056CD
++0030: 0x00000000   0x004010B6   0x022DF050   0x026AFAF8
++0040: 0x026576A0   0x00402B63   0x022DF050   0x00000014
++0050: 0x0018F868   0x026AFAF8   0x0018FB5C   0x022DF050
++0060: 0x00000000   0x00000000   0x00000000   0x00058454
++0070: 0x00058458   0x000585D0   0x000545D8   0x00058464
++0080: 0x000545DC   0x02635214   0x026576A0   0x00000000
++0090: 0x02633B68   0x0002248C   0x0046EC31   0x022DF050
++00A0: 0x0018F8E8   0x00000008   0x022DF050   0x00000000
++00B0: 0x022DF050   0x00000035   0x022DF050   0x00000001
++00C0: 0x022DF050   0x00000000   0x022DF050   0x0018F904
++00D0: 0x0018F8EC   0x0018FA40   0x026ABC74   0x00000000
++00E0: 0x0018FB41   0x022DF050   0x00000000   0x026ABC74
++00F0: 0x00493912   0x00000008   0x00000035   0x00000001
++0100: 0x00000000   0x000545D4   0x003DE6D0   0x0018FB68
++0110: 0x003DD401   0x000000F8   0x010000F0   0x00180000
++0120: 0x00000035   0x00000000   0x00000038   0x00000038
++0130: 0x00000030   0x0018FB68   0x0018FB00   0x004AA54B
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x7743F000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x770C0000 - 0x77200000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x74AB0000 - 0x74B87000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76C30000 - 0x76CF3000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x74D30000 - 0x74EAC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x75060000 - 0x7511A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x752E0000 - 0x75434000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x756B0000 - 0x7572C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x74EB0000 - 0x74ECE000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x76B20000 - 0x76C2D000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x76A70000 - 0x76AB1000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x74AA0000 - 0x74AAA000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x74A40000 - 0x74A94000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x75730000 - 0x75757000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x754E0000 - 0x755F2000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x75760000 - 0x76A1E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x74790000 - 0x74798000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x745F0000 - 0x74613000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x77070000 - 0x770B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x76D00000 - 0x76D4F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73800000 - 0x73823000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x74B90000 - 0x74B97000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x76F70000 - 0x76FAC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x737D0000 - 0x737F1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x73710000 - 0x737CF000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x736D0000 - 0x7370D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73660000 - 0x736C9000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x745D0000 - 0x745E7000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x73610000 - 0x7365B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x735F0000 - 0x73601000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x735D0000 - 0x735E4000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x73550000 - 0x735CE000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x73540000 - 0x7354A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x73520000 - 0x73540000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73510000 - 0x73518000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x734B0000 - 0x734B8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F390	EBX: 0x02615214	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0215F050	EBP: 0x0018F3A0	ESP: 0x0018F378
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0215F050   0x0215F050   0x02615214   0xFFFFFFFF
++0010: 0x0018F378   0x0018EDB4   0x0018FB44   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x02618598   0x004056CD
++0030: 0x00000000   0x004010B6   0x0215F050   0x0268F94C
++0040: 0x02637608   0x00402B63   0x0215F050   0x00000014
++0050: 0x0018F3E0   0x0268F94C   0x0018F874   0x00000001
++0060: 0x0268FAE0   0x0215F050   0x00000000   0x00058340
++0070: 0x00058344   0x000584CC   0x000545B8   0x00058350
++0080: 0x000545BC   0x02615214   0x02637608   0x00000000
++0090: 0x02613B68   0x000223F4   0x004746BE   0x0215F050
++00A0: 0x0018F864   0x00000043   0x00470001   0x00007369
++00B0: 0x5F646D63   0x706D6F63   0x63726172   0x00617361
++00C0: 0x0215F050   0x02637608   0x00000001   0x000545B0
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0x00000000   0x00000020   0x003ED408
++0120: 0xEBBBE7AA   0x0045A295   0x0018F4EC   0x00000001
++0130: 0x00000009   0x00000002   0xEBBBE7AA   0x00007945
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x7743F000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x770C0000 - 0x77200000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x74AB0000 - 0x74B87000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76C30000 - 0x76CF3000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x74D30000 - 0x74EAC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x75060000 - 0x7511A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x752E0000 - 0x75434000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x756B0000 - 0x7572C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x74EB0000 - 0x74ECE000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x76B20000 - 0x76C2D000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x76A70000 - 0x76AB1000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x74AA0000 - 0x74AAA000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x74A40000 - 0x74A94000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x75730000 - 0x75757000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x754E0000 - 0x755F2000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x75760000 - 0x76A1E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x74790000 - 0x74798000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x745F0000 - 0x74613000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x77070000 - 0x770B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x76D00000 - 0x76D4F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73800000 - 0x73823000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x74B90000 - 0x74B97000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x76F70000 - 0x76FAC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x737D0000 - 0x737F1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x73710000 - 0x737CF000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x736D0000 - 0x7370D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73660000 - 0x736C9000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x745D0000 - 0x745E7000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x73610000 - 0x7365B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x735F0000 - 0x73601000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x735D0000 - 0x735E4000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x73550000 - 0x735CE000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x73540000 - 0x7354A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x73520000 - 0x73540000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73510000 - 0x73518000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x734B0000 - 0x734B8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018ECC8	EBX: 0x024F52A4	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x01E9F050	EBP: 0x0018ECD8	ESP: 0x0018ECB0
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x01E9F050   0x01E9F050   0x024F52A4   0xFFFFFFFF
++0010: 0x0018ECB0   0x0018E6EC   0x0018F380   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x024F8678   0x004056CD
++0030: 0x00000000   0x004010B6   0x01E9F050   0x0256C7D0
++0040: 0x02515EA4   0x00402B63   0x01E9F050   0x00000015
++0050: 0x0018ED18   0x0256C7D0   0x0018F1B0   0x00000000
++0060: 0x0256C9F8   0x01E9F050   0x00000000   0x00056928
++0070: 0x0005692C   0x00056B48   0x000530D4   0x00056938
++0080: 0x000530D8   0x024F52A4   0x02515EA4   0x00000000
++0090: 0x024F3B68   0x00020C00   0x004746BE   0x01E9F050
++00A0: 0x0018F1A0   0x00000009   0x00006969   0x72657449
++00B0: 0x506E4F5F   0x6579616C   0x73694472   0x6E6E6F63
++00C0: 0x00746365   0x01E9F050   0x01E9F050   0x024F52A4
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0xFFFFFFFF   0xFFFFFFFF   0x00000000   0x0048E4BE
++0120: 0x004B9D28   0x0018EE30   0x00000001   0x00000008
++0130: 0x00000003   0xEBBBE7AA   0x00488232   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x7743F000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x770C0000 - 0x77200000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x74AB0000 - 0x74B87000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76C30000 - 0x76CF3000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x74D30000 - 0x74EAC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x75060000 - 0x7511A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x752E0000 - 0x75434000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x756B0000 - 0x7572C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x74EB0000 - 0x74ECE000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x76B20000 - 0x76C2D000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x76A70000 - 0x76AB1000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x74AA0000 - 0x74AAA000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x74A40000 - 0x74A94000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x75730000 - 0x75757000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x754E0000 - 0x755F2000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x75760000 - 0x76A1E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x74790000 - 0x74798000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x745F0000 - 0x74613000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x77070000 - 0x770B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x76D00000 - 0x76D4F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73800000 - 0x73823000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x74B90000 - 0x74B97000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x76F70000 - 0x76FAC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x737D0000 - 0x737F1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x73710000 - 0x737CF000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x736D0000 - 0x7370D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73660000 - 0x736C9000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x745D0000 - 0x745E7000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x73610000 - 0x7365B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x735F0000 - 0x73601000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x735D0000 - 0x735E4000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x73550000 - 0x735CE000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x73540000 - 0x7354A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x73520000 - 0x73540000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73510000 - 0x73518000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x734B0000 - 0x734B8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F390	EBX: 0x00521844	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0228F050	EBP: 0x0018F3A0	ESP: 0x0018F378
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0228F050   0x0228F050   0x00521844   0xFFFFFFFF
++0010: 0x0018F378   0x0018EDB4   0x0018FB44   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x00524BC8   0x004056CD
++0030: 0x00000000   0x004010B6   0x0228F050   0x0059F0E4
++0040: 0x00542EFC   0x00402B63   0x0228F050   0x00000014
++0050: 0x0018F3E0   0x0059F0E4   0x0018F874   0x00000001
++0060: 0x0059F7C8   0x0228F050   0x00000000   0x0005C1E4
++0070: 0x0005C1E8   0x0005C8C0   0x000589CC   0x0005C1F4
++0080: 0x000589D0   0x00521844   0x00542EFC   0x00000000
++0090: 0x00520020   0x000216B8   0x004746BE   0x0228F050
++00A0: 0x0018F864   0x0000004A   0x65742030   0x00657473
++00B0: 0x00007369   0x5F646D63   0x696E6162   0x00470072
++00C0: 0x0228F050   0x00542EFC   0x0005898C   0x000589AC
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x00000000   0xFFFFFFF8   0x02000002   0x00000000
++0120: 0x00240000   0x00240000   0xD40003D7   0x00000005
++0130: 0x0272E234   0x000000FE   0x10000010   0x002401C8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x768C0000 - 0x76A00000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75140000 - 0x75217000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76F80000 - 0x77043000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77050000 - 0x771CC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x76C90000 - 0x76D4A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x77710000 - 0x77864000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x76A90000 - 0x76B0C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x77870000 - 0x7788E000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x771D0000 - 0x772DD000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x75220000 - 0x75261000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77690000 - 0x776B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76B70000 - 0x76C82000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x752C0000 - 0x7657E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x74E20000 - 0x74E28000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x74DF0000 - 0x74E13000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x75270000 - 0x752B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x773E0000 - 0x7742F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74DC0000 - 0x74DE3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x772E0000 - 0x772E7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x773A0000 - 0x773DC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74D90000 - 0x74DB1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74CD0000 - 0x74D8F000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74C90000 - 0x74CCD000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74C20000 - 0x74C89000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74C00000 - 0x74C17000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74970000 - 0x749BB000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74BE0000 - 0x74BF1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74950000 - 0x74964000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x748D0000 - 0x7494E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74BD0000 - 0x74BDA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x748B0000 - 0x748D0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x748A0000 - 0x748A8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74840000 - 0x74848000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F378	EBX: 0x0355F844	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x021BF050	EBP: 0x0018F388	ESP: 0x0018F360
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x021BF050   0x021BF050   0x0355F844   0xFFFFFFFF
++0010: 0x0018F360   0x0018ED9C   0x0018FB44   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x03562BC8   0x004056CD
++0030: 0x00000000   0x004010B6   0x021BF050   0x035DD0E4
++0040: 0x03580EFC   0x00402B63   0x021BF050   0x00000014
++0050: 0x0018F3C8   0x035DD0E4   0x0018F85C   0x00000001
++0060: 0x035DD7C8   0x021BF050   0x00000000   0x0005C1E4
++0070: 0x0005C1E8   0x0005C8C0   0x000589CC   0x0005C1F4
++0080: 0x000589D0   0x0355F844   0x03580EFC   0x00000000
++0090: 0x0355E020   0x000216B8   0x004746BE   0x021BF050
++00A0: 0x0018F84C   0x0000004A   0x65742030   0x00657473
++00B0: 0x00007369   0x5F646D63   0x696E6162   0x00470072
++00C0: 0x021BF050   0x021BF050   0x0355F844   0x000589AC
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x003C0000
++0110: 0x00000000   0x000000D8   0xFFFFFFFE   0x003C4204
++0120: 0x001C07D0   0x00000020   0x00000000   0x025E4EA0
++0130: 0x025EE250   0x00000000   0x08000008   0x001C0000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x768C0000 - 0x76A00000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75140000 - 0x75217000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76F80000 - 0x77043000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77050000 - 0x771CC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x76C90000 - 0x76D4A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x77710000 - 0x77864000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x76A90000 - 0x76B0C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x77870000 - 0x7788E000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x771D0000 - 0x772DD000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x75220000 - 0x75261000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77690000 - 0x776B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76B70000 - 0x76C82000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x752C0000 - 0x7657E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x74E20000 - 0x74E28000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x74DF0000 - 0x74E13000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x75270000 - 0x752B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x773E0000 - 0x7742F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x74DC0000 - 0x74DE3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x772E0000 - 0x772E7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x773A0000 - 0x773DC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74D90000 - 0x74DB1000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x74CD0000 - 0x74D8F000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x74C90000 - 0x74CCD000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74C20000 - 0x74C89000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x74C00000 - 0x74C17000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x74970000 - 0x749BB000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74BE0000 - 0x74BF1000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x74950000 - 0x74964000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x748D0000 - 0x7494E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74BD0000 - 0x74BDA000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x748B0000 - 0x748D0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x748A0000 - 0x748A8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x74840000 - 0x74848000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F394	EBX: 0x026644E4	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0223C9E0	EBP: 0x0018F3A4	ESP: 0x0018F37C
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0223C9E0   0x0223C9E0   0x026644E4   0xFFFFFFFF
++0010: 0x0018F37C   0x0018EDBC   0x0018FB4C   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x0266ABDC   0x004056CD
++0030: 0x00000000   0x004010B6   0x0223C9E0   0x0268B5B0
++0040: 0x0266C52C   0x00402B63   0x0223C9E0   0x00000004
++0050: 0x0018F3E4   0x0268B5B0   0x0018F874   0x00000001
++0060: 0x0268B5D8   0x0223C9E0   0x00000000   0x0001F080
++0070: 0x0001F084   0x0001F0A0   0x0001B178   0x0001F08C
++0080: 0x0001B178   0x026644E4   0x0266C52C   0x00000000
++0090: 0x02663B68   0x00008048   0x004746BE   0x0223C9E0
++00A0: 0x0018F864   0x00000017   0x00470035   0x00007369
++00B0: 0x5F646D63   0x61736163   0x00474400   0x0223C9E0
++00C0: 0x0266C52C   0x0001B168   0x0001B170   0x00000000
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000020   0x10000010
++0110: 0xFFFFFFFB   0x02000002   0x00000000   0x00250000
++0120: 0x00250000   0x7E000779   0x00000004   0x029254B8
++0130: 0x000000FE   0x10000010   0x002501C8   0x0018F4F4
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x768C0000 - 0x76A00000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75140000 - 0x75217000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76F80000 - 0x77043000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77050000 - 0x771CC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x76C90000 - 0x76D4A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x77710000 - 0x77864000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x76A90000 - 0x76B0C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x77870000 - 0x7788E000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x771D0000 - 0x772DD000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x75220000 - 0x75261000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77690000 - 0x776B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76B70000 - 0x76C82000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x752C0000 - 0x7657E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x73FC0000 - 0x73FC8000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x73F90000 - 0x73FB3000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x75270000 - 0x752B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x773E0000 - 0x7742F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73F60000 - 0x73F83000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x772E0000 - 0x772E7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x773A0000 - 0x773DC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x73F30000 - 0x73F51000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x73B90000 - 0x73C4F000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x73CC0000 - 0x73CFD000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73B20000 - 0x73B89000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x73F10000 - 0x73F27000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x73C70000 - 0x73CBB000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x73B00000 - 0x73B11000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x73AE0000 - 0x73AF4000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x73A60000 - 0x73ADE000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x73F00000 - 0x73F0A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x73A40000 - 0x73A60000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73C60000 - 0x73C68000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x739E0000 - 0x739E8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049939B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x0018F388	EBX: 0x025D44E4	ECX: 0x00000000	EDX: 0x004056C0
+ESI: 0x00000000	EDI: 0x0226C9E0	EBP: 0x0018F398	ESP: 0x0018F370
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0226C9E0   0x0226C9E0   0x025D44E4   0xFFFFFFFF
++0010: 0x0018F370   0x0018EDAC   0x0018FB44   0x0049D208
++0020: 0x004BA1B8   0xFFFFFFFF   0x025DACAC   0x004056CD
++0030: 0x00000000   0x004010B6   0x0226C9E0   0x025FAE88
++0040: 0x025DC604   0x00402B63   0x0226C9E0   0x00000004
++0050: 0x0018F3D8   0x025FAE88   0x0018F86C   0x00000001
++0060: 0x025FB2B0   0x0226C9E0   0x00000000   0x0001E880
++0070: 0x0001E884   0x0001ECA0   0x0001AD90   0x0001EC8C
++0080: 0x0001AD90   0x025D44E4   0x025DC604   0x00000000
++0090: 0x025D3B68   0x00008120   0x004746BE   0x0226C9E0
++00A0: 0x0018F85C   0x00000017   0x30303035   0x00474600
++00B0: 0x00007369   0x5F646D63   0x61736163   0x00474400
++00C0: 0x0226C9E0   0x025DC604   0x0001AD68   0x0001AD7C
++00D0: 0x00000000   0x00000000   0x00000000   0x00000000
++00E0: 0x00000000   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x00000000   0x00000000   0x00000000
++0100: 0x00000000   0x00000000   0x00000000   0x01ED4204
++0110: 0x002407D0   0x00000020   0x10000010   0xFFFFFFFB
++0120: 0x02000002   0x00000004   0x03879820   0x01ED0000
++0130: 0x03879820   0x0000000B   0x7799C1FC   0x7797F45D
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77ACF000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x768C0000 - 0x76A00000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75140000 - 0x75217000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+msvcrt.dll	A: 0x76F80000 - 0x77043000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x77050000 - 0x771CC000	(C:\windows\SYSTEM32\combase.dll)
+RPCRT4.dll	A: 0x76C90000 - 0x76D4A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+USER32.dll	A: 0x77710000 - 0x77864000	(C:\windows\SYSTEM32\USER32.dll)
+ADVAPI32.dll	A: 0x76A90000 - 0x76B0C000	(C:\windows\SYSTEM32\ADVAPI32.dll)
+SspiCli.dll	A: 0x77870000 - 0x7788E000	(C:\windows\SYSTEM32\SspiCli.dll)
+GDI32.dll	A: 0x771D0000 - 0x772DD000	(C:\windows\SYSTEM32\GDI32.dll)
+sechost.dll	A: 0x75220000 - 0x75261000	(C:\windows\SYSTEM32\sechost.dll)
+CRYPTBASE.dll	A: 0x75130000 - 0x7513A000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x750D0000 - 0x75124000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x77690000 - 0x776B7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76B70000 - 0x76C82000	(C:\windows\SYSTEM32\MSCTF.dll)
+SHELL32.dll	A: 0x752C0000 - 0x7657E000	(C:\windows\SYSTEM32\SHELL32.dll)
+WSOCK32.dll	A: 0x73FC0000 - 0x73FC8000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x73F90000 - 0x73FB3000	(C:\windows\SYSTEM32\WINMM.dll)
+SHLWAPI.dll	A: 0x75270000 - 0x752B5000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+WS2_32.dll	A: 0x773E0000 - 0x7742F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x73F60000 - 0x73F83000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+NSI.dll	A: 0x772E0000 - 0x772E7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x773A0000 - 0x773DC000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x73F30000 - 0x73F51000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x73B90000 - 0x73C4F000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCR100.dll)
+streamer.DLL	A: 0x73CC0000 - 0x73CFD000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x73B20000 - 0x73B89000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\MSVCP100.dll)
+MapAndreas.DLL	A: 0x73F10000 - 0x73F27000	(C:\Users\carlos\Desktop\Gamemode BvO do 0 v1.0\Brasil Vida Online\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x73C70000 - 0x73CBB000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x73B00000 - 0x73B11000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x73AE0000 - 0x73AF4000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x73A60000 - 0x73ADE000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x73F00000 - 0x73F0A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x73A40000 - 0x73A60000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x73C60000 - 0x73C68000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x739E0000 - 0x739E8000	(C:\Windows\System32\rasadhlp.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC0C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x206D6542	EBX: 0x02469373	ECX: 0x7FFFFFFE	EDX: 0x0018F3ED
+ESI: 0x0018F040	EDI: 0x0018F818	EBP: 0x0018F08C	ESP: 0x0018F000
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0018F7D8   0x0018F3D8   0x02469310   0x0018F048
++0010: 0x00498E11   0x00570000   0x00000000   0x00000007
++0020: 0x00000000   0x02414A54   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x000000C8
++0040: 0x00000016   0x00000000   0x206D6542   0xFFFFFFFF
++0050: 0x00000000   0x002B38DA   0x00000000   0x00579A08
++0060: 0x44000145   0xFFFFFFEE   0x02000002   0x00000000
++0070: 0x0000094B   0x00001256   0x4D00014C   0x0214DD40
++0080: 0x01040001   0x050060C4   0x44000145   0x00000000
++0090: 0x00000080   0x00000017   0x00009E01   0x00050000
++00A0: 0x00050000   0x00050000   0x02000002   0x20000000
++00B0: 0x4D00014C   0xAC4C8E6E   0xEC0984AE   0x002C6A30
++00C0: 0x002B00C0   0x000007FF   0x002B48F0   0x0000011A
++00D0: 0x002B0000   0x00000133   0x00000000   0x0048E400
++00E0: 0x002B48F4   0x000000C8   0x3F800000   0x00000000
++00F0: 0x00000000   0x000000C5   0x00000000   0x00000000
++0100: 0x000000B3   0x00000000   0x01000000   0x002C85C0
++0110: 0x41BBE700   0x00000080   0x01000000   0x00000000
++0120: 0x00000000   0x00000133   0x002C6A28   0x00000001
++0130: 0x002C6A30   0x00000002   0x002C6A28   0x002C6A30
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\MiniGames\Downloads\Street Of Caminhoneiros\samp-server.exe)
+ntdll.dll	A: 0x76ED0000 - 0x7703F000	(C:\windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76CC0000 - 0x76E00000	(C:\windows\SYSTEM32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x767F0000 - 0x768C7000	(C:\windows\SYSTEM32\KERNELBASE.dll)
+SHELL32.dll	A: 0x74C60000 - 0x75F1E000	(C:\windows\SYSTEM32\SHELL32.dll)
+USER32.dll	A: 0x74B00000 - 0x74C54000	(C:\windows\SYSTEM32\USER32.dll)
+WSOCK32.dll	A: 0x74620000 - 0x74628000	(C:\windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x745F0000 - 0x74613000	(C:\windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x74830000 - 0x748F3000	(C:\windows\SYSTEM32\msvcrt.dll)
+combase.dll	A: 0x763C0000 - 0x7653C000	(C:\windows\SYSTEM32\combase.dll)
+SHLWAPI.dll	A: 0x76BD0000 - 0x76C15000	(C:\windows\SYSTEM32\SHLWAPI.dll)
+GDI32.dll	A: 0x75F20000 - 0x7602D000	(C:\windows\SYSTEM32\GDI32.dll)
+WS2_32.dll	A: 0x74900000 - 0x7494F000	(C:\windows\SYSTEM32\WS2_32.dll)
+WINMMBASE.dll	A: 0x745C0000 - 0x745E3000	(C:\windows\SYSTEM32\WINMMBASE.dll)
+RPCRT4.dll	A: 0x766B0000 - 0x7676A000	(C:\windows\SYSTEM32\RPCRT4.dll)
+NSI.dll	A: 0x769F0000 - 0x769F7000	(C:\windows\SYSTEM32\NSI.dll)
+cfgmgr32.dll	A: 0x76540000 - 0x7657C000	(C:\windows\SYSTEM32\cfgmgr32.dll)
+DEVOBJ.dll	A: 0x74420000 - 0x74441000	(C:\windows\SYSTEM32\DEVOBJ.dll)
+SspiCli.dll	A: 0x76040000 - 0x7605E000	(C:\windows\SYSTEM32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x746A0000 - 0x746AA000	(C:\windows\SYSTEM32\CRYPTBASE.dll)
+sechost.dll	A: 0x76370000 - 0x763B1000	(C:\windows\SYSTEM32\sechost.dll)
+bcryptPrimitives.dll	A: 0x74640000 - 0x74694000	(C:\windows\SYSTEM32\bcryptPrimitives.dll)
+IMM32.DLL	A: 0x768D0000 - 0x768F7000	(C:\windows\system32\IMM32.DLL)
+MSCTF.dll	A: 0x76590000 - 0x766A2000	(C:\windows\SYSTEM32\MSCTF.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\MiniGames\Downloads\Street Of Caminhoneiros\plugins\sscanf.DLL)
+MSVCR100.dll	A: 0x73770000 - 0x7382F000	(C:\Users\MiniGames\Downloads\Street Of Caminhoneiros\MSVCR100.dll)
+streamer.DLL	A: 0x743E0000 - 0x7441D000	(C:\Users\MiniGames\Downloads\Street Of Caminhoneiros\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x74340000 - 0x743A9000	(C:\Users\MiniGames\Downloads\Street Of Caminhoneiros\MSVCP100.dll)
+MapAndreas.DLL	A: 0x745A0000 - 0x745B7000	(C:\Users\MiniGames\Downloads\Street Of Caminhoneiros\plugins\MapAndreas.DLL)
+mswsock.dll	A: 0x742C0000 - 0x7430B000	(C:\windows\system32\mswsock.dll)
+napinsp.dll	A: 0x74320000 - 0x74331000	(C:\windows\system32\napinsp.dll)
+NLAapi.dll	A: 0x742A0000 - 0x742B4000	(C:\windows\system32\NLAapi.dll)
+DNSAPI.dll	A: 0x736F0000 - 0x7376E000	(C:\windows\SYSTEM32\DNSAPI.dll)
+winrnr.dll	A: 0x74500000 - 0x7450A000	(C:\windows\System32\winrnr.dll)
+IPHLPAPI.DLL	A: 0x74280000 - 0x742A0000	(C:\windows\SYSTEM32\IPHLPAPI.DLL)
+WINNSI.DLL	A: 0x736E0000 - 0x736E8000	(C:\windows\SYSTEM32\WINNSI.DLL)
+rasadhlp.dll	A: 0x73680000 - 0x73688000	(C:\Windows\System32\rasadhlp.dll)
